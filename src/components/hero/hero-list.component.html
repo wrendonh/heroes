@@ -1,0 +1,7 @@
+<div class="containerppal">
+    <div class="container">
+        <div class="item" *ngFor='let hero of heroes; let i = index'>
+          <app-herodetail [hero]='hero' [dataindex]='i'></app-herodetail>
+        </div>
+    </div>  
+</div>
